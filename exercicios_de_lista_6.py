@@ -1,7 +1,7 @@
 notas = []
 nomes = []
 
-for i in range(2):
+for i in range(10):
     nome = input("Informe o nome do aluno: ")
     nomes.append(nome)
     soma = 0
