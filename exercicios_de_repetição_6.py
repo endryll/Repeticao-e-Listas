@@ -1,3 +1,5 @@
-for i in range (21):
-    print (i)
-print(list(range(1,21)))
+for num in range(1, 21):
+    print(num)
+
+for num in range(1, 21):
+    print(num, end=' ')
