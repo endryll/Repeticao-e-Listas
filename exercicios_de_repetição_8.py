@@ -1,10 +1,11 @@
-primeiro_numero=float(input("digite o 1º numero: "))
-segundo_numero=float(input("digite o 2º numero: "))
-terceiro_numero=float(input("digite o 3º numero: "))
-quarto_numero=float(input("digite o 4º numero: "))
-quinto_numero=float(input("digite o 5º numero: "))
+media = 0
+soma = 0
 
-soma = primeiro_numero + segundo_numero + terceiro_numero + quarto_numero + quinto_numero
+for i in range(5):
+    num = float(input("Digite um número: "))
+    soma += num
 
-print("soma:",soma,)
-print("média:",soma/5)
+media = soma / 5
+
+print(f"soma: {soma}")
+print(f"média: {media}")
